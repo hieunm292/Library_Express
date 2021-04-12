@@ -2,8 +2,9 @@ const express = require('express')
 const app = express()
 const cookieParser = require('cookie-parser')
 
-const db=require('./db')
 const userRoute=require('./routes/user.route')
+const authMiddleware=require('./middlewares/auth.middleware')
+const auth=require('./routes/auth.route')
 const port = 3000
 
 app.use(express.json())
@@ -22,7 +23,8 @@ app.get('/', (req, res) => {
   });
 });
 
-app.use('/users',userRoute)
+app.use('/users',authMiddleware.requireAuth , userRoute)
+app.use('/auth',auth)
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)

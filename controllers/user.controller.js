@@ -1,14 +1,14 @@
 const db=require('../db')
 const shortid = require('shortid');
 
-module.exports.index = function(req,res){
+module.exports.index = (req,res)=>{
         res.render('users/index',{
           // get all data from db.dafaults({ users : []})
           users: db.get('users').value()
         })
 }
 
-module.exports.search= function(req,res){
+module.exports.search= (req,res)=>{
     var q=req.query.q;
     var matchValue = db.get('users').value().filter(function(user){
       return user.name.toLowerCase().indexOf(q.toLowerCase()) !== -1;
@@ -17,7 +17,7 @@ module.exports.search= function(req,res){
     res.render('users/index',{users:matchValue})
 }
 
-module.exports.create= function(req,res){
+module.exports.create= (req,res)=>{
   console.log(req.cookies)
     res.render('users/create')
 }
@@ -30,7 +30,6 @@ module.exports.get=(req,res)=>{
 
 module.exports.postCreate=(req,res)=>{
     req.body.id=shortid.generate();
-    console.log(res.locals)
     db.get('users').push(req.body).write(); 
     res.redirect('/users')
 }

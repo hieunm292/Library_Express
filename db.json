@@ -1,36 +1,14 @@
 {
   "users": [
     {
-      "name": "ABSDD",
-      "id": "vB9ROqnvk"
-    },
-    {
       "name": "Hieu",
-      "id": "dJqCthhzy"
+      "id": "dJqCthhzy",
+      "email": "hieunm38@fsoft.com.vn",
+      "password": "202cb962ac59075b964b07152d234b70"
     },
     {
       "name": "Minh",
       "id": "KiMzz5koM"
-    },
-    {
-      "name": "test23",
-      "phone": "123456",
-      "id": "sVoTyPvAm"
-    },
-    {
-      "name": "test3",
-      "phone": "12312345",
-      "id": "UgY84fZDg"
-    },
-    {
-      "name": "testdemo222",
-      "phone": "123123333",
-      "id": "gF0IM3isS"
-    },
-    {
-      "name": "testdemo333",
-      "phone": "1234567890",
-      "id": "T86ovox6X"
     }
   ]
 }
