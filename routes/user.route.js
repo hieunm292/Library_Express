@@ -3,7 +3,6 @@ const router = express.Router()
 
 const controller=require('../controllers/user.controller')
 const validate=require('../validate/user.validate')
-const authMiddleware=require('../middlewares/auth.middleware')
 
 router.get('/', controller.index)
 
