@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require('express')
 const app = express()
 const cookieParser = require('cookie-parser')
@@ -9,7 +11,7 @@ const port = 3000
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true })) 
-app.use(cookieParser("qewwqwfewafdew123"))
+app.use(cookieParser(process.env.SESSION_SECRET))
 
 app.set('view engine','pug')
 app.set('views','./views')

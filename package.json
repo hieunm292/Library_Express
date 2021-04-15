@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --inspect index.js",
+    "hieujs": "set SESSION_SECRET=123i1023&&node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/hieunm292/Library_Express#readme",
   "dependencies": {
     "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "lowdb": "^1.0.0",
     "md5": "^2.3.0",
