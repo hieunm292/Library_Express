@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --inspect index.js",
-    "hieujs": "set SESSION_SECRET=123i1023&&node index.js",
+    "hieujs": "set SESSION_SECRET=123i1023&&npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
