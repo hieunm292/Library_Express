@@ -623,5 +623,14 @@
       "image": "https://loremflickr.com/320/240",
       "description": "magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae"
     }
+  ],
+  "sessions": [
+    {
+      "id": "uJuvKAjJu",
+      "cart": {
+        "fefad8cf-3751-4674-877c-cc22e49a3a9f": 3,
+        "63b852b0-678c-4230-acab-9b61d2355f9c": 1
+      }
+    }
   ]
 }
