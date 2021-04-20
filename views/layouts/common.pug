@@ -21,23 +21,25 @@ html
               | Products 
               span.sr-only (current)
           li.nav-item.active
-            a.nav-link(href='/users/create') Create
-          li.nav-item.dropdown
-            a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-              | Dropdown
-            .dropdown-menu(aria-labelledby='navbarDropdown')
-              a.dropdown-item(href='#') Action
-              a.dropdown-item(href='#') Another action
-              .dropdown-divider
-              a.dropdown-item(href='#') Something else here
-          li.nav-item
-            a.nav-link.disabled(href='#') Disabled
+            a.nav-link(href='/users/create') Create User
+          li.nav-item.active
+            a.nav-link(href='/transfer/create') Transfer
+          //- li.nav-item.dropdown
+          //-   a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          //-     | Dropdown
+          //-   .dropdown-menu(aria-labelledby='navbarDropdown')
+          //-     a.dropdown-item(href='#') Action
+          //-     a.dropdown-item(href='#') Another action
+          //-     .dropdown-divider
+          //-     a.dropdown-item(href='#') Something else here
+          //- li.nav-item
+          //-   a.nav-link.disabled(href='#') Disabled
         //- form.form-inline.my-2.my-lg-0
         //-   input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search')
         //-   button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
 
-      if user
-        p=user.name
+      //- if user
+      //-   p=user.name
 
     .container.pt-5
 

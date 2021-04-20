@@ -3,7 +3,7 @@
     {
       "name": "Hieu",
       "id": "dJqCthhzy",
-      "email": "hieunm38@fsoft.com.vn",
+      "email": "hieu@hieujs",
       "password": "202cb962ac59075b964b07152d234b70"
     },
     {
@@ -631,6 +631,26 @@
         "fefad8cf-3751-4674-877c-cc22e49a3a9f": 3,
         "63b852b0-678c-4230-acab-9b61d2355f9c": 1
       }
+    },
+    {
+      "id": "bM2u4W9U-"
+    },
+    {
+      "id": "B5mB3yDIH"
+    }
+  ],
+  "transfer": [
+    {
+      "id": "LCQU9u63u",
+      "amount": 200000,
+      "accountId": "1234567",
+      "userId": "dJqCthhzy"
+    },
+    {
+      "id": "Am_gz2A_F",
+      "amount": 40000,
+      "accountId": "12313",
+      "userId": "dJqCthhzy"
     }
   ]
 }
