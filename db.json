@@ -2,6 +2,7 @@
   "users": [
     {
       "name": "Hieu",
+      "phone": "1234565432",
       "id": "dJqCthhzy",
       "email": "hieu@hieujs",
       "password": "202cb962ac59075b964b07152d234b70"
@@ -24,28 +25,10 @@
   ],
   "products": [
     {
-      "id": "fefad8cf-3751-4674-877c-cc22e49a3a9f",
-      "name": "Creamers - 10%",
-      "image": "https://loremflickr.com/320/240",
-      "description": "hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero"
-    },
-    {
-      "id": "91617ee8-edb0-45db-8294-f321b0c7f7cf",
-      "name": "Chinese Foods - Chicken",
-      "image": "https://loremflickr.com/320/240",
-      "description": "metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh"
-    },
-    {
       "id": "6cba486a-f3fb-4b47-9f08-ef9db8a2b0dd",
       "name": "Yogurt - French Vanilla",
       "image": "https://loremflickr.com/320/240",
       "description": "non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta"
-    },
-    {
-      "id": "c8d7cdb4-2861-4879-bbba-1113865f72b6",
-      "name": "Nescafe - Frothy French Vanilla",
-      "image": "https://loremflickr.com/320/240",
-      "description": "a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur"
     },
     {
       "id": "bca70e09-b7b6-4c2c-b242-6e18fa7b1873",
